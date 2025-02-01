@@ -1,0 +1,9 @@
+2025-02-01 16:24:12,933 - INFO - Starting security scan of https://www.hackthissite.org/
+2025-02-01 16:24:12,933 - INFO - Starting crawl of https://www.hackthissite.org/
+2025-02-01 16:24:13,811 - ERROR - Error crawling https://www.hackthissite.org/: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-02-01 16:24:13,811 - INFO - Starting XSS vulnerability tests
+2025-02-01 16:24:13,811 - INFO - Starting SQL Injection tests
+2025-02-01 16:24:13,823 - INFO - Checking security headers
+2025-02-01 16:24:13,999 - ERROR - Error checking security headers: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-02-01 16:24:13,999 - INFO - Report saved as security_report_20250201_162413.txt
+2025-02-01 16:24:13,999 - INFO - Scan completed successfully

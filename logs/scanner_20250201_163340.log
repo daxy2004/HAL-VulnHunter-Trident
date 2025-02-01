@@ -1,0 +1,6 @@
+2025-02-01 16:33:40,361 - INFO - Verifying target accessibility: http://www.itsecgames.com/
+2025-02-01 16:33:40,803 - INFO - Target is accessible - Server: Apache, Powered by: Unknown
+2025-02-01 16:33:40,803 - INFO - Starting security scan of http://www.itsecgames.com/
+2025-02-01 16:33:40,803 - INFO - Starting crawl of http://www.itsecgames.com/
+2025-02-01 16:33:41,013 - ERROR - Error during crawling: 'WebScanner' object has no attribute '_process_links'
+2025-02-01 16:33:41,015 - ERROR - Scan failed: 'WebScanner' object has no attribute '_process_links'

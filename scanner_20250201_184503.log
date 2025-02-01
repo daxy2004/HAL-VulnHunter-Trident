@@ -1,0 +1,8 @@
+2025-02-01 18:45:03,489 - INFO - Starting security scan of https://google-gruyere.appspot.com/373864509827697534264821121617306909531/
+2025-02-01 18:45:03,489 - INFO - Starting crawl of https://google-gruyere.appspot.com/373864509827697534264821121617306909531/
+2025-02-01 18:45:07,337 - INFO - Completed crawling. Found 5 pages and 2 forms
+2025-02-01 18:45:07,337 - INFO - Starting XSS vulnerability tests
+2025-02-01 18:45:07,353 - INFO - Starting SQL Injection tests
+2025-02-01 18:45:07,353 - INFO - Checking security headers
+2025-02-01 18:45:16,506 - INFO - Report saved as security_report_20250201_184516.txt
+2025-02-01 18:45:16,509 - INFO - Scan completed successfully

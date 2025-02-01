@@ -1,0 +1,90 @@
+
+Web Vulnerability Scan Report
+============================
+Target: http://www.itsecgames.com/
+Scan Date: 2025-02-01 16:40:55
+Pages Scanned: 10
+Forms Analyzed: 0
+
+Summary
+-------
+Total Vulnerabilities Found: 7
+
+Vulnerability Breakdown:
+- Critical: 0
+- High: 0
+- Medium: 7
+- Low: 0
+
+Detailed Findings
+----------------
+
+[MEDIUM] Missing Security Header
+URL: http://www.itsecgames.com/
+Parameter: Strict-Transport-Security
+CWE ID: CWE-693
+CVSS Score: 5.0
+Description: Missing Strict-Transport-Security header: Ensures secure HTTPS connections
+Recommendation: Add the Strict-Transport-Security header with appropriate values
+Proof of Concept: N/A
+----------------------------------------
+
+[MEDIUM] Missing Security Header
+URL: http://www.itsecgames.com/
+Parameter: X-Frame-Options
+CWE ID: CWE-693
+CVSS Score: 5.0
+Description: Missing X-Frame-Options header: Prevents clickjacking attacks
+Recommendation: Add the X-Frame-Options header with appropriate values
+Proof of Concept: N/A
+----------------------------------------
+
+[MEDIUM] Missing Security Header
+URL: http://www.itsecgames.com/
+Parameter: X-Content-Type-Options
+CWE ID: CWE-693
+CVSS Score: 5.0
+Description: Missing X-Content-Type-Options header: Prevents MIME-type sniffing
+Recommendation: Add the X-Content-Type-Options header with appropriate values
+Proof of Concept: N/A
+----------------------------------------
+
+[MEDIUM] Missing Security Header
+URL: http://www.itsecgames.com/
+Parameter: Content-Security-Policy
+CWE ID: CWE-693
+CVSS Score: 5.0
+Description: Missing Content-Security-Policy header: Controls resource loading
+Recommendation: Add the Content-Security-Policy header with appropriate values
+Proof of Concept: N/A
+----------------------------------------
+
+[MEDIUM] Missing Security Header
+URL: http://www.itsecgames.com/
+Parameter: X-XSS-Protection
+CWE ID: CWE-693
+CVSS Score: 5.0
+Description: Missing X-XSS-Protection header: Provides XSS filtering
+Recommendation: Add the X-XSS-Protection header with appropriate values
+Proof of Concept: N/A
+----------------------------------------
+
+[MEDIUM] Missing Security Header
+URL: http://www.itsecgames.com/
+Parameter: Referrer-Policy
+CWE ID: CWE-693
+CVSS Score: 5.0
+Description: Missing Referrer-Policy header: Controls referrer information
+Recommendation: Add the Referrer-Policy header with appropriate values
+Proof of Concept: N/A
+----------------------------------------
+
+[MEDIUM] Missing Security Header
+URL: http://www.itsecgames.com/
+Parameter: Permissions-Policy
+CWE ID: CWE-693
+CVSS Score: 5.0
+Description: Missing Permissions-Policy header: Controls browser features
+Recommendation: Add the Permissions-Policy header with appropriate values
+Proof of Concept: N/A
+----------------------------------------
