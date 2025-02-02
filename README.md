@@ -1,4 +1,5 @@
-# Security Scanner - Full Stack Application
+# VulnHunter – A Web Security Arsenal
+
 
 The **Security Scanner** is a full-stack application designed to perform security scans on websites, identify vulnerabilities, and visualize the results in a user-friendly interface. The backend is built using **Python** and **FastAPI**, while the frontend is a **React** application. Users can view scan results, explore vulnerabilities, and download detailed PDF reports.
 
