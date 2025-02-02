@@ -1,0 +1,9 @@
+fastapi==0.68.1
+uvicorn==0.15.0
+python-multipart==0.0.5
+pydantic==1.8.2
+requests==2.26.0
+beautifulsoup4==4.9.3
+dnspython==2.1.0
+PyYAML==5.4.1
+reportlab==3.6.2
