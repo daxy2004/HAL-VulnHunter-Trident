@@ -1,8 +1,0 @@
-2025-02-01 16:26:01,600 - INFO - Starting security scan of http://www.itsecgames.com/
-2025-02-01 16:26:01,600 - INFO - Starting crawl of http://www.itsecgames.com/
-2025-02-01 16:26:15,444 - INFO - Completed crawling. Found 10 pages and 0 forms
-2025-02-01 16:26:15,444 - INFO - Starting XSS vulnerability tests
-2025-02-01 16:26:15,444 - INFO - Starting SQL Injection tests
-2025-02-01 16:26:15,444 - INFO - Checking security headers
-2025-02-01 16:26:15,701 - INFO - Report saved as security_report_20250201_162615.txt
-2025-02-01 16:26:15,703 - INFO - Scan completed successfully
