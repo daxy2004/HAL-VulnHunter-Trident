@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Profile</title>
+</head>
+<body>
+    <h1>Profile of {{ user[1] }}</h1>
+    <form action="/update_profile" method="POST">
+        <input type="hidden" name="user_id" value="{{ user[0] }}">
+        <label for="name">New Name:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Update Profile</button>
+    </form>
+</body>
+</html>
